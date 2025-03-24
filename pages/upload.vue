@@ -207,8 +207,8 @@
 
   watch(() => item.value, (newItem) => {
     
-    console.log("🔄 Item Updated in Vue:", newItem);
-    console.log("🔄 Configurations in Vue:", newItem?.configurations);
+    console.log("Item Updated in Vue:", newItem);
+    console.log("Configurations in Vue:", newItem?.configurations);
 
     uniqueColors.value.forEach(color => {
       uniqueFabrics.value.forEach(fabric => {
@@ -231,6 +231,13 @@
     border: 1px solid #ccc;
     text-align: center;
     padding: 10px;
+  }
+
+  .upload-table tr td:last-child {
+    border-right: none !important;
+  }
+  .upload-table tr th:last-child {
+    border-right: none !important;
   }
 
   .image-grid {
