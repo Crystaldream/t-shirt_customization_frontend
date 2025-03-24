@@ -2,10 +2,10 @@
 
 Frontend for a T-Shirt Customization project
 
-Install dependencies
+### Install dependencies
 
 `npm i`
 
-Start the server
+### Start the server
 
 `npm run dev`
